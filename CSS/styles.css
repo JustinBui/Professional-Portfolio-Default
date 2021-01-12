@@ -1,0 +1,224 @@
+/*Font I plan to use*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,300&display=swap");
+
+/*******************
+    GLOBAL EDITS
+********************/
+body {
+  background: black;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+p,
+h1,
+h3,
+li {
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-size: 65px;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*****************
+    INTRO
+******************/
+.intro-container {
+  height: 745px;
+  width: 100%;
+  background-image: url(../Images/buildings.jpg);
+  background-size: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.intro-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay p {
+  margin: 0;
+}
+
+.dash {
+  display: block;
+  width: 100px;
+  height: 2.3px;
+  background-color: rgba(255, 115, 1, 0.438);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3px;
+}
+
+/***************
+    ABOUT
+****************/
+
+.about-flexbox {
+  display: flex;
+  justify-content: space-around; /*putting space around 2 items in the flexbox*/
+  height: 700px;
+}
+
+.about-item {
+  margin: 100px;
+}
+
+.about-text {
+  width: 832px;
+  height: 477px;
+}
+
+.justin-bui-img {
+  margin-top: 100px;
+  width: 442px;
+  height: 600px;
+  clip-path: circle(at 50% 30%);
+}
+
+/*******************
+  TECHNICAL SKILLS
+********************/
+
+.technical-skills-container {
+  background-image: url(../Images/giphy.gif);
+  background-size: cover;
+}
+
+/*styling each flexbox*/
+.technical-skills-flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.technical-skills-overlay h1 {
+  margin: 54px;
+}
+
+.ratings-container {
+  width: 591px;
+  margin: 24px;
+  background-color: rgba(0, 0, 0, 0.86);
+  margin-bottom: 130px;
+}
+
+.programming-languages {
+  overflow: auto;
+}
+
+/*styling my ratings of each skill*/
+.all-skills li {
+  margin: 20px;
+}
+
+.bar {
+  display: block;
+  background-color: #272626;
+  height: 2px;
+  width: 360px;
+  margin: 15px;
+  box-shadow: 0 0 9px #05ff00;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.skill {
+  float: left;
+  height: 2px;
+  background: #05ff00;
+}
+
+.Python {
+  width: 60%;
+}
+
+.C {
+  width: 70%;
+}
+
+.CPP {
+  width: 80%;
+}
+
+.NASM {
+  width: 40%;
+}
+
+.HTML5 {
+  width: 30%;
+}
+
+.CSS {
+  width: 29%;
+}
+
+.Debugging {
+  width: 73%;
+}
+
+.Linux-Commands {
+  width: 48%;
+}
+
+/********************
+  MY LATEST WORK
+*********************/
+.latest-container {
+  padding: 87px;
+  margin-top: 85px;
+}
+
+.latest-header {
+  text-align: center;
+}
+
+/*********************
+  CONTACT
+*********************/
+.contact {
+  text-align: center;
+  background-color: #141414;
+  height: 450px;
+  margin-top: 85px;
+  border-radius: 35px 35px 0 0;
+}
+
+.contact h3 {
+  padding: 45px;
+  color: white;
+}
+
+.link {
+  margin: 10px;
+  display: inline-block;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.line {
+  display: block;
+  width: 420px;
+  height: 0.5px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}

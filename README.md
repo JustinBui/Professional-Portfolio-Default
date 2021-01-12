@@ -11,3 +11,5 @@ pictures gives even more insight of who I am to employers.
 
 - Visual Studio Code
 - Figma
+
+* Netlify

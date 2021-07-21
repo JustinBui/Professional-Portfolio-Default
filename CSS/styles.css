@@ -43,6 +43,7 @@ nav {
   top: 0px;
   background-color: black;
   width: 100%;
+  opacity: 90%
 }
 
 .bar-options {
@@ -92,7 +93,7 @@ nav {
     INTRO TITLE
 ******************/
 .intro-container {
-  height: 745px;
+  height: 870px;
   width: 100%;
   background-image: url(../Images/buildings.jpg);
   background-size: cover;

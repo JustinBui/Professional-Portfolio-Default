@@ -1,156 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--"head" element. Just for metadata. Cannot be seen on the website-->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Justin Bui</title>
-    <!--Linking my CSS files here-->
-    <link rel="stylesheet" href="../CSS/styles.css" />
-  </head>
-  <!--"body" element. This is what's seen on website-->
-  <body>
-    <!--------------- INTRO --------------->
-    <header class="intro-container">
-      <div class="overlay intro-overlay">
-        <h1>Justin Bui</h1>
-        <div class="dash"></div>
-        <p>Welcome to my professional portfolio</p>
-      </div>
-    </header>
-    <!--------------- ABOUT ME --------------->
+<!--"head" element. Just for metadata. Cannot be seen on the website-->
 
-    <section class="about-flexbox">
-      <img
-        src="../Images/justin-bui.JPG"
-        alt="Justin Bui"
-        class="about-item justin-bui-img"
-      />
-      <div class="about-item about-text">
-        <h1>1. About Me</h1>
-        <p>
-          Hello! My name is Justin Bui. I am a second-year undergraduate student
-          at California State University, Fullerton. I worked for my campus as
-          an instructional lab assistant at the Computer Science Department
-          during the fall semester of 2020. I plan to re-apply for this position
-          again in spring 2021.
-        </p>
-        <p>
-          Having a passion in quantitative thinking and problem-solving, I
-          discovered that the vastly growing tech industry, specifically in
-          software engineering or cyber security, would be a career path I would
-          love. I have also developed leadership, debugging, and teaching skills
-          from my previous job at my department.
-        </p>
-        <p>
-          I am willing to reach out for any internship opportunities to further
-          my career and abilities.
-        </p>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justin Bui's Portfolio</title>
+  <!--Linking my CSS files here-->
+  <link rel="stylesheet" href="../CSS/styles.css" />
+</head>
+<!--"body" element. This is what's seen on website-->
 
-    <!---------------TECHNICAL SKILLS--------------->
-    <section class="technical-skills-container">
-      <div class="overlay technical-skills-overlay">
-        <h1>2. Technical Skills</h1>
-        <div class="technical-skills-flexbox">
-          <div class="ratings-container programming-languages">
-            <!--Bar ratings of programming languages-->
-            <h3>Programming Languages</h3>
-            <ul class="all-skills">
-              <li>
-                Python:
-                <span class="bar"><span class="skill Python"></span></span>
-              </li>
-              <li>
-                C:
-                <span class="bar"><span class="skill C"></span></span>
-              </li>
-              <li>
-                C++:
-                <span class="bar"><span class="skill CPP"></span></span>
-              </li>
-              <li>
-                x86-Assembly:
-                <span class="bar"><span class="skill NASM"></span></span>
-              </li>
-              <li>
-                HTML5:
-                <span class="bar"><span class="skill HTML5"></span></span>
-              </li>
-              <li>
-                CSS:
-                <span class="bar"><span class="skill CSS"></span></span>
-              </li>
-            </ul>
-          </div>
-          <div class="ratings-container other">
-            <!--List of other skills-->
-            <h3>Other</h3>
-            <ul class="all-skills">
-              <li>
-                Debugging:
-                <span class="bar"><span class="skill Debugging"></span></span>
-              </li>
-              <li>
-                Linux Comamnds:
-                <span class="bar"
-                  ><span class="skill Linux-Commands"></span
-                ></span>
-              </li>
-            </ul>
-          </div>
+<body>
+  <!------------------ NAVBAR ------------------>
+  <nav class="navbar">
+    <h2 class="logo">Justin</h2>
+    <ul class="bar-options">
+      <li><button class="button">Home</button></li>
+      <li><button class="button">About Me</button></li>
+      <li><button class="button">Technical Skills</button></li>
+      <li><button class="button">Latest Work</button></li>
+    </ul>
+  </nav>
+
+  <!--------------- INTRO --------------->
+  <header class="intro-container">
+    <div class="overlay intro-overlay">
+      <h1>Justin Bui</h1>
+      <div class="dash"></div>
+      <p>Welcome to my professional portfolio</p>
+    </div>
+  </header>
+  <!--------------- ABOUT ME --------------->
+
+  <section class="about-flexbox">
+    <img src="../Images/justin-bui.JPG" alt="Justin Bui" class="about-item justin-bui-img" />
+    <div class="about-item about-text">
+      <h1>1. About Me</h1>
+      <p>
+        Hello! My name is Justin Bui. I am a third-year undergraduate student
+        at California State University, Fullerton. I worked for my campus as
+        an instructional lab assistant at the Computer Science Department
+        during from fall 2020 to spring 2021. I plan to re-apply for this position
+        again in fall 2021.
+      </p>
+      <p>
+        Having a passion in quantitative thinking and problem-solving, I
+        discovered that the vastly growing tech industry, specifically in
+        software engineering or cyber security, would be a career path I would
+        love. I have also developed leadership, debugging, and teaching skills
+        from my previous job at my department.
+      </p>
+      <p>
+        I am willing to reach out for any internship opportunities to further
+        my career and abilities.
+      </p>
+    </div>
+  </section>
+
+  <!---------------TECHNICAL SKILLS--------------->
+  <section class="technical-skills-container">
+    <div class="overlay technical-skills-overlay">
+      <h1>2. Technical Skills</h1>
+      <div class="technical-skills-flexbox">
+        <div class="ratings-container programming-languages">
+          <!--Bar ratings of programming languages-->
+          <h3>Programming Languages</h3>
+          <ul class="all-skills">
+            <li>
+              Python:
+              <span class="bar"><span class="skill Python"></span></span>
+            </li>
+            <li>
+              C:
+              <span class="bar"><span class="skill C"></span></span>
+            </li>
+            <li>
+              C++:
+              <span class="bar"><span class="skill CPP"></span></span>
+            </li>
+            <li>
+              x86-Assembly:
+              <span class="bar"><span class="skill NASM"></span></span>
+            </li>
+            <li>
+              HTML5:
+              <span class="bar"><span class="skill HTML5"></span></span>
+            </li>
+            <li>
+              CSS:
+              <span class="bar"><span class="skill CSS"></span></span>
+            </li>
+          </ul>
+        </div>
+        <div class="ratings-container other">
+          <!--List of other skills-->
+          <h3>Other</h3>
+          <ul class="all-skills">
+            <li>
+              Debugging:
+              <span class="bar"><span class="skill Debugging"></span></span>
+            </li>
+            <li>
+              Linux Comamnds:
+              <span class="bar"><span class="skill Linux-Commands"></span></span>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!------------IMPORTANT UPDATES------------>
-    <section class="latest-container">
-      <h1 class="latest-header">3. My Latest Work</h1>
-      <p>Updated Janurary 2021</p>
-      <p>
-        I am currently on winter break, and am spending this time to learn new
-        tech skills. Currently, I am learning front-end developing using Figma,
-        HTML5, CSS, and JavaScript to build this professional website. I am also
-        polishing my knowledge in Python for future projects I plan to work on
-        with friends I have met in my previous computer science course.
-      </p>
-      <p>
-        In the near future, I plan to learn even more new languages such as PHP,
-        and mySQL to prepare for my File Structures and Databases course next
-        spring semester. I also plan to learn ethical hacking by attending
-        workshops hosted by a club on my campus called Offensive Security
-        Society, and using resources on Google such as YouTube videos and
-        HackTheBox.
-      </p>
-    </section>
+  <!------------IMPORTANT UPDATES------------>
+  <section class="latest-container">
+    <h1 class="latest-header">3. Latest Work</h1>
+    <p>Updated Janurary 2021</p>
+    <p>
+      I am currently on winter break, and am spending this time to learn new
+      tech skills. Currently, I am learning front-end developing using Figma,
+      HTML5, CSS, and JavaScript to build this professional website. I am also
+      polishing my knowledge in Python for future projects I plan to work on
+      with friends I have met in my previous computer science course.
+    </p>
+    <p>
+      In the near future, I plan to learn even more new languages such as PHP,
+      and mySQL to prepare for my File Structures and Databases course next
+      spring semester. I also plan to learn ethical hacking by attending
+      workshops hosted by a club on my campus called Offensive Security
+      Society, and using resources on Google such as YouTube videos and
+      HackTheBox.
+    </p>
+  </section>
 
-    <!---------------CONTACT--------------->
-    <footer class="contact">
-      <h3>Contact</h3>
-      <p>
-        Any questions? Interested in networking with me? Feel free to reach out!
-      </p>
+  <!---------------CONTACT--------------->
+  <footer class="contact">
+    <h3>Contact</h3>
+    <p>
+      Any questions? Interested in networking with me? Feel free to reach out!
+    </p>
 
-      <a href="#" class="link">
-        <img src="../Images/gmail.png" class="gmail-logo logo" />
-      </a>
+    <a href="#" class="link">
+      <img src="../Images/gmail.png" class="gmail-logo logo" />
+    </a>
 
-      <a href="https://github.com/BuiTheBoi" class="link">
-        <img src="../Images/github.svg" class="github-logo logo" />
-      </a>
+    <a href="https://github.com/BuiTheBoi" class="link">
+      <img src="../Images/github.svg" class="github-logo logo" />
+    </a>
 
-      <a
-        href="https://www.linkedin.com/in/justin-bui-4a8926194?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6J%2BCyhlJRy2JX5BDYNE%2FVA%3D%3D"
-        class="link"
-      >
-        <img
-          src="../Images/Linkedin-Logo-Png-Transparent-Background.png"
-          class="linkedin-logo logo"
-        />
-      </a>
+    <a href="https://www.linkedin.com/in/justin-bui-4a8926194?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6J%2BCyhlJRy2JX5BDYNE%2FVA%3D%3D"
+      class="link">
+      <img src="../Images/Linkedin-Logo-Png-Transparent-Background.png" class="linkedin-logo logo" />
+    </a>
 
-      <div class="line"></div>
-    </footer>
-  </body>
+    <div class="line"></div>
+  </footer>
+</body>
+<script src="../Scripts/app.js"></script>
+
 </html>

@@ -16,15 +16,19 @@
   <nav class="navbar">
     <h2 class="logo">Justin</h2>
     <ul class="bar-options">
-      <li><button class="button">Home</button></li>
-      <li><button class="button">About Me</button></li>
-      <li><button class="button">Technical Skills</button></li>
-      <li><button class="button">Latest Work</button></li>
+      <!-- <li><button class="button" id="home-btn">Home</button></li>
+      <li><button class="button" id="abt-btn">About Me</button></li>
+      <li><button class="button" id="skill-btn">Technical Skills</button></li>
+      <li><button class="button" id="latest-wrk-btn">Latest Work</button></li> -->
+      <li><a href="#top" class="button" id="home-btn">Home</a></li>
+      <li><a href="#about" class="button" id="abt-btn">About Me</a></li>
+      <li><a href="#skills" class="button" id="skill-btn">Technical Skills</a></li>
+      <li><a href="#latest" class="button" id="latest-wrk-btn">Latest Work</a></li>
     </ul>
   </nav>
 
   <!--------------- INTRO --------------->
-  <header class="intro-container">
+  <header class="intro-container" id="top">
     <div class="overlay intro-overlay">
       <h1>Justin Bui</h1>
       <div class="dash"></div>
@@ -33,7 +37,7 @@
   </header>
   <!--------------- ABOUT ME --------------->
 
-  <section class="about-flexbox">
+  <section class="about-flexbox" id="about">
     <img src="../Images/justin-bui.JPG" alt="Justin Bui" class="about-item justin-bui-img" />
     <div class="about-item about-text">
       <h1>1. About Me</h1>
@@ -59,7 +63,7 @@
   </section>
 
   <!---------------TECHNICAL SKILLS--------------->
-  <section class="technical-skills-container">
+  <section class="technical-skills-container" id="skills">
     <div class="overlay technical-skills-overlay">
       <h1>2. Technical Skills</h1>
       <div class="technical-skills-flexbox">
@@ -112,7 +116,7 @@
   </section>
 
   <!------------IMPORTANT UPDATES------------>
-  <section class="latest-container">
+  <section class="latest-container" id="latest">
     <h1 class="latest-header">3. Latest Work</h1>
     <p>Updated Janurary 2021</p>
     <p>

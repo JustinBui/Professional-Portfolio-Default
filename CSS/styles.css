@@ -49,7 +49,8 @@ nav {
   top: 0px;
   background-color: black;
   width: 100%;
-  opacity: 90%
+  opacity: 90%;
+  z-index: 1;
 }
 
 .bar-options {
@@ -225,10 +226,14 @@ nav {
 }
 
 .HTML5 {
-  width: 30%;
+  width: 35%;
 }
 
 .CSS {
+  width: 29%;
+}
+
+.JavaScript {
   width: 29%;
 }
 
@@ -238,6 +243,14 @@ nav {
 
 .Linux-Commands {
   width: 48%;
+}
+
+.OpenCV {
+  width: 50%;
+}
+
+.MediaPipe {
+  width: 25%;
 }
 
 /********************

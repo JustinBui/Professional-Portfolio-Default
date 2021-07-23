@@ -9,7 +9,7 @@ I can only show so much through my resume, so making an entire website with colo
 pictures gives even more insight of who I am to employers.
 
 **Warning: This website is only compatible for PC and NOT mobile. However,
-I plan to also make it support mobile browsers later on in this project**
+I plan to also make it support mobile browsers later on in this project.**
 ## Tools
 
 - Visual Studio Code

@@ -61,7 +61,7 @@ nav {
   display: flex;
 }
 
-.logo {
+.nav-name {
   font-size: 30px;
   letter-spacing: 4px;
   margin: 0% 3%;
@@ -143,6 +143,10 @@ nav {
 .about-flexbox {
   display: flex;
   justify-content: space-around; /*putting space around 2 items in the flexbox*/
+}
+
+.about-link {
+  color:rgb(0, 174, 255);
 }
 
 .about-item {
@@ -289,32 +293,43 @@ nav {
 .project a h3:hover {
   color:green;
   opacity: 100%;
+  height: 16vh;
+  width: 85%;
 }
 
 
 /*********************
   CONTACT
 *********************/ 
-.contact {
+.contact-footer {
   text-align: center;
   background-color: #070707;
   height: 450px;
   margin-top: 85px;
 }
 
-.contact h3 {
+.contact-footer h3 {
   padding: 45px;
   color: white;
 }
 
-.link {
+.media-link {
   margin: 10px;
   display: inline-block;
 }
 
+
 .logo {
   width: 45px;
   height: 45px;
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  width: 50px;
+  height: 50px;
+  opacity: 100%;
 }
 
 .line {

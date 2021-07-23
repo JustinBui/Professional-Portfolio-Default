@@ -37,6 +37,10 @@ section {
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*****************
     NAVBAR
 ******************/
@@ -72,11 +76,10 @@ nav {
   padding: 15px 32px;
   font-size: 20px;
   position: relative;
-  text-decoration: none;
 }
 
 /*Putting these affects after each button element*/
-.button:after {
+.button::after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -89,10 +92,10 @@ nav {
 }
 
 /* Hovering over the button */
-.button:hover:after {
+.button::hover::after {
   width: 100%;
 }
-.button:hover {
+.button::hover {
   color: white;
 }
 
@@ -261,9 +264,35 @@ nav {
   text-align: center;
 }
 
+.project a h3{
+  color: white;
+  background-color: gray;
+  font-size: 40px;
+  height: 15vh;
+  width: 80%;
+  background-size: cover;
+}
+
+.CS-BS {
+  background-image: url("../Images/CS-BS.PNG");
+}
+
+.pledge-project {
+  background-image: url("../Images/pledge-project.png");
+}
+
+.rock-paper-scissors {
+  background-image: url("../Images/rock-paper-scissors.png");
+}
+
+.project a h3:hover {
+  color:green;
+}
+
+
 /*********************
   CONTACT
-*********************/
+*********************/ 
 .contact {
   text-align: center;
   background-color: #070707;

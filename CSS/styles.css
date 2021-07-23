@@ -79,7 +79,7 @@ nav {
 }
 
 /*Putting these affects after each button element*/
-.button::after {
+.button:after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -92,10 +92,10 @@ nav {
 }
 
 /* Hovering over the button */
-.button::hover::after {
+.button:hover:after {
   width: 100%;
 }
-.button::hover {
+.button:hover {
   color: white;
 }
 
@@ -266,11 +266,12 @@ nav {
 
 .project a h3{
   color: white;
-  background-color: gray;
   font-size: 40px;
   height: 15vh;
   width: 80%;
   background-size: cover;
+  opacity: 40%;
+  transition: 0.5s;
 }
 
 .CS-BS {
@@ -287,6 +288,7 @@ nav {
 
 .project a h3:hover {
   color:green;
+  opacity: 100%;
 }
 
 

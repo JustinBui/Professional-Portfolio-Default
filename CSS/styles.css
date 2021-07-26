@@ -352,3 +352,9 @@ nav {
   text-align: center;
   display: none;
 }
+
+.copyright {
+  position: relative;
+  font-size: 10px;
+  opacity: 75%;
+}

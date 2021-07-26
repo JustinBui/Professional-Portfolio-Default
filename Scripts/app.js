@@ -35,8 +35,6 @@ function copy(myText) {
     document.execCommand("copy");
     $inp.remove();
 
-
-
     // Animations showing text "Gmail Copied to Cliboard!"
     $(".alert").fadeIn(1000, function () {
         $(".alert").fadeOut();

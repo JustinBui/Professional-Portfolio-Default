@@ -340,3 +340,15 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
+
+.alert {
+  background-color: rgba(29, 245, 0, 0.356);
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: none;
+}

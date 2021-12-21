@@ -81,7 +81,7 @@ nav {
 }
 
 /*Putting these affects after each button element*/
-/* .button:after {
+.button:after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -91,7 +91,7 @@ nav {
   width: 100%;
   transition: ease-out 0.3s;
   width: 0px;
-} */
+}
 
 /* Hovering over the button */
 .button:hover:after {

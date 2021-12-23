@@ -1,7 +1,3 @@
-// Reference: https://www.youtube.com/watch?v=y9nlfqT4s9s
-// Using JQuery for smooth scroll animations
-
-
 // Clicking navbar buttons to scroll to specific sections of website
 $(".button").on("click", function (e) {
     if (this.hash !== "") {
@@ -18,9 +14,25 @@ $(".button").on("click", function (e) {
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
+    const navLinks = document.querySelectorAll(".nav-links li");
 
     burger.addEventListener("click", () => {
+        // Togglingt side nav
         nav.classList.toggle("nav-active");
+
+        // Animating links
+        navLinks.forEach((link, index) => {
+            // Adding delay as links pop up
+            if (link.style.animation) {
+                link.style.animation = "";
+            }
+            else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.55}s`;
+            }
+        });
+
+        // Burger animation when user clicks
+        burger.classList.toggle("toggle");
     });
 }
 

@@ -67,6 +67,7 @@ nav {
   background-color: rgb(226, 226, 226);
   margin: 5px;
   margin-right: 25px;
+  transition: all 0.3s ease;  /* Transitions to X when user clicks */
 }
 
 .nav-links {
@@ -126,13 +127,19 @@ nav {
     height: 96vh;
     top: 3vh;
     width: 45%;
-    transform: translateX(100%);
-
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    /* Moving the right nav off the screen */
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
   }
 
   .burger {
@@ -141,9 +148,34 @@ nav {
   }
 }
 
-.nav-active { /* When the user clicks burger to show side nav bar*/
+/* When the user clicks burger to show side nav bar*/
+.nav-active {
   transform: translateX(0%);
 }
+
+/* Animations for each nav link to fade in form the right */
+@keyframes navLinkFade {
+  from {
+      opacity: 0;
+      transform: translateX(40px);
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
+
+/* Burger icon changed to an x after clicking on it */
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
 
 /*****************
     INTRO TITLE

@@ -115,6 +115,10 @@ nav {
 
 /* Navbar Change on mobile */
 @media screen and (max-width: 939px){
+
+  body {
+    overflow-x: hidden;
+  }
   .nav-links {    
     position: absolute;
     right: 0px;
@@ -122,6 +126,7 @@ nav {
     height: 96vh;
     top: 3vh;
     width: 45%;
+    transform: translateX(100%);
 
     background-color: black;
     display: flex;
@@ -132,7 +137,12 @@ nav {
 
   .burger {
     display: block;
+    cursor: pointer
   }
+}
+
+.nav-active { /* When the user clicks burger to show side nav bar*/
+  transform: translateX(0%);
 }
 
 /*****************

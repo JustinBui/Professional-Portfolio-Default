@@ -218,12 +218,12 @@ nav {
     ABOUT
 ****************/
 
-.about-flexbox {
+/* .about-flexbox {
   display: flex;
-  justify-content: space-around; /*putting space around 2 items in the flexbox*/
-}
+  justify-content: space-around; //putting space around 2 items in the flexbox
+} */
 
-.about-link {
+/* .about-link {
   color:rgb(0, 174, 255);
 }
 
@@ -241,7 +241,7 @@ nav {
   width: 442px;
   height: 600px;
   clip-path: circle(at 50% 30%);
-}
+} */
 
 /*******************
   TECHNICAL SKILLS

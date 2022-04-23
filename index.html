@@ -1,192 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--"head" element. Just for metadata. Cannot be seen on the website-->
+  <!--"head" element. Just for metadata. Cannot be seen on the website-->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Justin Bui's Portfolio</title>
-  <!--Linking my CSS files here-->
-  <link rel="stylesheet" href="CSS/styles.css" />
-  <link rel="shortcut icon" type="image/png" href="Images/favicon.png" />
-</head>
-<!--"body" element. This is what's seen on website-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justin Bui's Portfolio</title>
+    <!--Linking my CSS files here-->
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png" />
+  </head>
+  <!--"body" element. This is what's seen on website-->
 
-<body>
-  <!------------------ NAVBAR ------------------>
-  <nav class="navbar">
-    <h2 class="nav-name">Justin</h2>
-    <ul class="nav-links">
-      <li><a href="#top" class="button" id="home-btn">Home</a></li>
-      <li><a href="#about" class="button" id="abt-btn">About</a></li>
-      <li><a href="#skills" class="button" id="skill-btn">Skills</a></li>
-      <li><a href="#latest" class="button" id="latest-wrk-btn">Projects</a></li>
-      <li><a href="#contact" class="button" id="contact-btn">Contact</a></li>
-    </ul>
+  <body>
+    <!------------------ NAVBAR ------------------>
+    <nav class="navbar">
+      <h2 class="nav-name">Justin</h2>
+      <ul class="nav-links">
+        <li><a href="#top" class="button" id="home-btn">Home</a></li>
+        <li><a href="#about" class="button" id="abt-btn">About</a></li>
+        <li><a href="#skills" class="button" id="skill-btn">Skills</a></li>
+        <li>
+          <a href="#latest" class="button" id="latest-wrk-btn"
+            >Projects/Coursework</a
+          >
+        </li>
+        <li><a href="#contact" class="button" id="contact-btn">Contact</a></li>
+      </ul>
 
-    <div class="burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
-    </div>
-  </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
 
-  <!--------------- INTRO --------------->
-  <header class="intro-container" id="top">
-    <div class="overlay intro-overlay">
-      <h1>Justin Bui</h1>
-      <div class="dash"></div>
-      <p>Welcome to my professional portfolio</p>
-    </div>
-  </header>
-  <!--------------- ABOUT ME --------------->
+    <!--------------- INTRO --------------->
+    <header class="intro-container" id="top">
+      <div class="overlay intro-overlay">
+        <h1>Justin Bui</h1>
+        <div class="dash"></div>
+        <p>Welcome to my professional portfolio</p>
+      </div>
+    </header>
+    <!--------------- ABOUT ME --------------->
 
-  <section class="about-flexbox" id="about">
-    <img src="Images/justin-bui.JPG" alt="Justin Bui" class="about-item justin-bui-img" />
-    <div class="about-item about-text">
-      <h1>1. About</h1>
-      <p>Hello!</p>
-      <p>
-        My name is Justin Bui. I am a third-year computer science student
-        at California State University, Fullerton. I chose computer science as I
-        enjoy math and logical thinking to conquer problems. The amount of career
-        options available is also something that truly entrigues me about computer
-        science. Some of my career interests include A.I., software engineering, or
-        cyber security.
-      </p>
-      <p>
-        At my university, I worked as an Instructional Lab Assistant, where I am
-        responsible for helping students and professors when in need during lab sessions
-        of their computer science courses. I enjoy communicating with these students,
-        whether through clarifying technical questions, debugging code, or just getting
-        to know them. I am also a member of <a class="about-link" href="https://www.csufthetatau.org/"> CSUF Theta
-          Tau</a>, a professional
-        engineering
-        fraternity responsible for raising our standards of professional interest and
-        forming fraternal relations amongs ourselves.
-      </p>
-      <p>
-        Outside of tech, some of the things I enjoy doing include working out, listening
-        to music, and playing video games. I am willing to reach out for any internship
-        opportunities to further my career and abilities. Feel free to contact me to
-        stay in touch! (<a href="#contact" class="about-link scroll-to-contacts">Contact Me Below!</a>)
-      </p>
-    </div>
-  </section>
+    <section class="about-flexbox" id="about">
+      <img
+        src="Images/justin-bui.JPG"
+        alt="Justin Bui"
+        class="about-item justin-bui-img"
+      />
+      <div class="about-item about-text">
+        <h1>1. About</h1>
+        <p>Hello!</p>
+        <p>
+          My name is Justin Bui. I am a third-year computer science student at
+          California State University, Fullerton. I chose computer science as I
+          enjoy math and logical thinking to conquer problems. The amount of
+          career options available is also something that truly entrigues me
+          about computer science. Some of my career interests include A.I.,
+          software engineering, or cyber security.
+        </p>
+        <p>
+          At my university, I worked as an Instructional Lab Assistant, where I
+          am responsible for helping students and professors when in need during
+          lab sessions of their computer science courses. I enjoy communicating
+          with these students, whether through clarifying technical questions,
+          debugging code, or just getting to know them. I am also a member of
+          <a class="about-link" href="https://www.csufthetatau.org/">
+            CSUF Theta Tau</a
+          >, a professional engineering fraternity responsible for raising our
+          standards of professional interest and forming fraternal relations
+          amongs ourselves.
+        </p>
+        <p>
+          Outside of tech, some of the things I enjoy doing include working out,
+          listening to music, and playing video games. I am willing to reach out
+          for any internship opportunities to further my career and abilities.
+          Feel free to contact me to stay in touch! (<a
+            href="#contact"
+            class="about-link scroll-to-contacts"
+            >Contact Me Below!</a
+          >)
+        </p>
+      </div>
+    </section>
 
-  <!---------------TECHNICAL SKILLS--------------->
-  <section class="technical-skills-container" id="skills">
-    <div class="overlay technical-skills-overlay">
-      <h1>2. Skills</h1>
-      <div class="technical-skills-flexbox">
-        <div class="ratings-container programming-languages">
-          <!--Bar ratings of programming languages-->
-          <h3>Programming Languages</h3>
-          <ul class="all-skills">
-            <li>
-              Python:
-              <span class="bar"><span class="skill Python"></span></span>
-            </li>
-            <li>
-              C:
-              <span class="bar"><span class="skill C"></span></span>
-            </li>
-            <li>
-              C++:
-              <span class="bar"><span class="skill CPP"></span></span>
-            </li>
-            <li>
-              x86-Assembly:
-              <span class="bar"><span class="skill NASM"></span></span>
-            </li>
-            <li>
-              HTML5:
-              <span class="bar"><span class="skill HTML5"></span></span>
-            </li>
-            <li>
-              CSS:
-              <span class="bar"><span class="skill CSS"></span></span>
-            </li>
-            <li>
-              JavaScript:
-              <span class="bar"><span class="skill JavaScript"></span></span>
-            </li>
-          </ul>
-        </div>
-        <div class="ratings-container other">
-          <!--List of other skills-->
-          <h3>Other</h3>
-          <ul class="all-skills">
-            <li>
-              Debugging:
-              <span class="bar"><span class="skill Debugging"></span></span>
-            </li>
-            <li>
-              Linux Comamnds:
-              <span class="bar"><span class="skill Linux-Commands"></span></span>
-            </li>
-            <li>
-              OpenCV:
-              <span class="bar"><span class="skill OpenCV"></span></span>
-            </li>
-            <li>
-              MediaPipe:
-              <span class="bar"><span class="skill MediaPipe"></span></span>
-            </li>
-          </ul>
+    <!---------------TECHNICAL SKILLS--------------->
+    <section class="technical-skills-container" id="skills">
+      <div class="overlay technical-skills-overlay">
+        <h1>2. Skills</h1>
+        <div class="technical-skills-flexbox">
+          <div class="ratings-container programming-languages">
+            <!--Bar ratings of programming languages-->
+            <h3>Programming Languages</h3>
+            <ul class="all-skills">
+              <li>
+                Python:
+                <span class="bar"><span class="skill Python"></span></span>
+              </li>
+              <li>
+                C:
+                <span class="bar"><span class="skill C"></span></span>
+              </li>
+              <li>
+                C++:
+                <span class="bar"><span class="skill CPP"></span></span>
+              </li>
+              <li>
+                x86-Assembly:
+                <span class="bar"><span class="skill NASM"></span></span>
+              </li>
+              <li>
+                HTML5:
+                <span class="bar"><span class="skill HTML5"></span></span>
+              </li>
+              <li>
+                CSS:
+                <span class="bar"><span class="skill CSS"></span></span>
+              </li>
+              <li>
+                JavaScript:
+                <span class="bar"><span class="skill JavaScript"></span></span>
+              </li>
+            </ul>
+          </div>
+          <div class="ratings-container other">
+            <!--List of other skills-->
+            <h3>Other</h3>
+            <ul class="all-skills">
+              <li>
+                Debugging:
+                <span class="bar"><span class="skill Debugging"></span></span>
+              </li>
+              <li>
+                Linux Comamnds:
+                <span class="bar"
+                  ><span class="skill Linux-Commands"></span
+                ></span>
+              </li>
+              <li>
+                OpenCV:
+                <span class="bar"><span class="skill OpenCV"></span></span>
+              </li>
+              <li>
+                MediaPipe:
+                <span class="bar"><span class="skill MediaPipe"></span></span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!------------ PROJECTS ------------>
-  <section class="latest-container" id="latest">
-    <h1 class="latest-header">3. Projects</h1>
-    <center>
-      <ul class="all-projects">
-        <li class="project">
-          <a href="https://github.com/BuiTheBoi/cs-bs">
-            <h3 class="CS-BS">CS-BS Front-End Website</h3>
-          </a>
-        </li>
-        <li class="project"><a href="https://github.com/BuiTheBoi/Zeta-Pledge-Project">
-            <h3 class="pledge-project">Automatic Sprinkler Software</h3>
-          </a></li>
-        <li class="project"><a href="https://github.com/BuiTheBoi/Rock-Paper-Scissors">
-            <h3 class="rock-paper-scissors">Rock Paper Scissors with OpenCV and MediaPipe</h3>
-          </a></li>
-      </ul>
-    </center>
-  </section>
+    <!------------ PROJECTS ------------>
+    <section class="latest-container" id="latest">
+      <h1 class="latest-header">3. Projects/Coursework</h1>
 
-  <!---------------CONTACT--------------->
-  <footer class="contact-footer" id="contact">
-    <h3>Contact</h3>
-    <p>
-      Any questions? Interested in networking with me? Feel free to reach out!
-    </p>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-image card-1"></div>
+          <h3>Flushy Website (Group Project)</h3>
+          <p class="assignment-date">Group Project: 2/27/2022 - Present</p>
+          <p>
+            This website allows users to find the nearest restrooms according to
+            their location. They can also click onto a specific restroom and see
+            pictures and read reviews about these restroom qualities. This is
+            done in a team of 7 members using HTML, CSS, JavaScript, Firebase,
+            and Maptiler API.
+          </p>
+          <a href="https://github.com/le11evan/Flushy_Website">SOURCE CODE</a>
+        </div>
+        <div class="card">
+          <div class="card-image card-2"></div>
+          <h3>Contribution 1 - Geeks Say</h3>
+          <p class="assignment-date">Assignment 1: 2/8/2022 - 3/15/2022</p>
+          <p>
+            Open source website that can convert layman's term to Geek terms.
+            For example 'Geeks will save the world' gets converted to 'Geeks
+            will ctrl+s the world.' I contributed to their JavaScript codebase
+            adding more layman's terms that can be converted to geeks terms.
+          </p>
+          <a href="https://github.com/swapagarwal/geeksay/pull/326"
+            >SOURCE CODE</a
+          >
+        </div>
+        <div class="card">
+          <div class="card-image card-3"></div>
+          <h3>Contribution 2 - Newsify</h3>
+          <p class="assignment-date">Assignment 2: 3/15/2022 - 4/19/2022</p>
+          <p>
+            Webapp that gets the latest headlines from different news sources
+            and topics of your choice, and answers your questions about the
+            headline directly, without ever needing to skim the article. I
+            contributed by editing the Tailwind CSS to make a glassmorphic
+            background on the about page.
+          </p>
+          <a href="https://github.com/nonpeep/newsify/pull/12">SOURCE CODE</a>
+        </div>
+        <div class="card">
+          <div class="card-image card-4"></div>
+          <h3>Data Converter</h3>
+          <p class="assignment-date">Assignment 3: 4/19/2022 - 5/17/2022</p>
+          <p>
+            An interactive C++ menu-driven program that can convert between all
+            of the following numerical-bases: binary (base-2), octal (base-8),
+            decimal (base-10), or hexadecimal (base-16)
+          </p>
+          <a>SOURCE CODE</a>
+        </div>
+        <div class="card">
+          <div class="card-image card-5"></div>
+          <h3>Contribution 3</h3>
+          <p class="assignment-date">Assignment 3: 4/19/2022 - 5/17/2022</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a>SOURCE CODE</a>
+        </div>
+      </div>
+    </section>
 
-    <a class="media-link">
-      <img src="Images/gmail.png" class="gmail-logo logo" />
-    </a>
+    <!---------------CONTACT--------------->
+    <footer class="contact-footer" id="contact">
+      <h3>Contact</h3>
+      <p>
+        Any questions? Interested in networking with me? Feel free to reach out!
+      </p>
 
-    <a href="https://github.com/BuiTheBoi" class="media-link">
-      <img src="Images/github.svg" class="github-logo logo" />
-    </a>
+      <a class="media-link">
+        <img src="Images/gmail.png" class="gmail-logo logo" />
+      </a>
 
-    <a href="https://www.linkedin.com/in/justin-bui-4a8926194?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6J%2BCyhlJRy2JX5BDYNE%2FVA%3D%3D"
-      class="media-link">
-      <img src="Images/Linkedin-Logo-Png-Transparent-Background.png" class="linkedin-logo logo" />
-    </a>
-    <div class="line"></div>
-    <div class="alert">Gmail Copied to Cliboard!</div>
+      <a href="https://github.com/BuiTheBoi" class="media-link">
+        <img src="Images/github.svg" class="github-logo logo" />
+      </a>
 
-    <p class="copyright">Copyright © 2021 Justin Bui. All Rights Reserved.</p>
-  </footer>
+      <a
+        href="https://www.linkedin.com/in/justin-bui-4a8926194?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6J%2BCyhlJRy2JX5BDYNE%2FVA%3D%3D"
+        class="media-link"
+      >
+        <img
+          src="Images/Linkedin-Logo-Png-Transparent-Background.png"
+          class="linkedin-logo logo"
+        />
+      </a>
+      <div class="line"></div>
+      <div class="alert">Gmail Copied to Cliboard!</div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="Scripts/navs.js"></script>
-  <script src="Scripts/clipboard.js"></script>
-</body>
+      <p class="copyright">Copyright © 2021 Justin Bui. All Rights Reserved.</p>
+    </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Scripts/navs.js"></script>
+    <script src="Scripts/clipboard.js"></script>
+  </body>
 </html>

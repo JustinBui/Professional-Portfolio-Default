@@ -403,10 +403,12 @@ nav {
 
 .card-4 {
   background-image: url("../Images/binary.jpg");
+  background-size: cover;
 }
 
 .card-5 {
-  background-color: magenta;
+  background-image: url("../Images/RPS.png");
+  background-size: cover;
 }
 
 .assignment-date {
